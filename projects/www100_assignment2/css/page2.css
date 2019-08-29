@@ -1,0 +1,118 @@
+body{
+	font-family: 'Crimson Text', serif;
+}
+#pages{
+	font-size:xx-large;
+	border-bottom-color:#666666;
+	display:block;
+	text-align:center;
+}
+#pages a{
+	background-color:#CCCCCC;
+	color:#000000;
+	font-style: italic;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:xx-large;
+}
+#pages a:hover{
+	border: 2px solid black;
+}
+#pages a:active{
+	border-color:#FF0000;
+	color:#FFFFFF;
+	background-color:#000000;
+}
+header{
+	width:70%;
+	height:150px;
+	background-color:#D1D1D1;
+	display:block;
+	margin:auto;
+}
+h1{
+	width:20%;
+	margin-top:0;
+	display:inline-block;
+	float:left;/*to adjust the position of logo to the left of header*/	
+	padding:0;
+	position:relative;
+	font-size:72px;
+	text-align:center;
+	padding-top:20px;
+	text-shadow:6px 6px 4px #A79696;;
+}
+nav{
+	width:80%;
+	float:left;
+	
+}
+nav ul li{
+	list-style:none;
+	float:left;
+	height:2em;
+	background-color:#FFFFFF;
+	color:#000000;
+	text-align:center;
+	font-size:24px;
+	margin-top:2em;
+	margin-left:1em;
+	position:relative;
+	text-decoration:none;
+	border:4px solid #666666;
+	text-align:center;
+	box-shadow: 6px 6px 4px #A79696;
+}
+nav ul li a{
+	text-decoration:none;
+	color:#000000;
+	text-shadow:6px 6px 4px #A79696;
+}
+nav ul li a:hover{
+	background-color:#000000;
+	color:#FFFFFF;
+	font-weight:200;
+}
+#container{
+	width:70%;
+	margin:auto;
+	}
+main{
+	width:100%;
+	font-size:24px;
+	text-align:left;
+	margin-top:5px;
+	background-color:#D1D1D1;
+	display:block;
+	}
+section{
+	box-shadow: 6px 6px 4px #0000FF;
+	border-radius:10px;
+	padding:0 4px;
+	display:block;
+}
+section article{
+	width:30%;
+	height:auto;
+}
+h2{
+	text-decoration:underline;
+}
+article{
+	background-color:#CCCCCC;
+	float:left;
+	padding:5px;
+	margin:1%;
+}
+section article ul{
+	word-spacing:60px;
+}
+
+section article img{
+	display:none;
+}
+footer{
+	clear:both;
+	background-color:#CCCCCC;
+	width:70%;
+	margin:auto;
+}

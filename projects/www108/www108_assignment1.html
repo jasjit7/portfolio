@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>C3.js Intro</title>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/c3.min.css">
+	<link rel="stylesheet" href="css/Chart.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+</head>
+
+<body>
+	<header class="jumbotron">
+		<h1>Creating a chart on Demographics of Canada with <a href="https://c3js.org">C3.js</a></h1>
+		<p></p>
+	</header>
+
+	<div class="container container-fluid">
+		<img src="images/canada-political-map.jpg" alt="map of canada" style="width:500px; height:400px; margin: 0 auto;">
+		<div class="row">
+			<div class="col-6">
+				<h2 class="h5">Demographics of Canada</h2>
+				<div id="chart"></div>
+			</div> <!-- close .col-6 -->
+		</div> <!-- close .row -->
+		<br>
+		<br>
+		<a href = "http://worldpopulationreview.com/countries/canada-population/"><h3>Click to see the Data's source</h3></a>
+	</div>	<!-- close .container -->
+	<hr>
+	<div class="container container-fluid comparison">
+		
+		
+		<div class="one-library">
+			<h4>Chart.js</h4>
+			<img src="images/chart.jpg" alt="chart-logo">
+			<p>The Chart JS library is an HTML5 based JavaScript library for creating animated, interactive and customizable charts and graphs.</p>
+			<ul>
+				<li>Dependencies: Moment.js is an optional dependency for Chart.js and Chart.min.js. In order to use the time scale with Moment.js, you need to make sure Moment.js is fully loaded before requiring Chart.js. </li>
+				<li>Licence: Chart.js is open source and available under the MIT license. </li>
+				<li>Existing projects: <a href="https://www.chartjs.org/samples/latest/">Projects</a></li>
+				<li>How long: May 20, 2013. Latest Version: 5 months ago </li>
+				<li>Based on: HTML5</li>
+				<li>Available. Straight forward and easy to implement.</li>
+				<li>Implementation: Easy to implement. Followed the documentation and Could easily make a pie chart. Recommended to use.</li>
+				<li>Compare to C3: 
+					<ul>
+						<li>Works on all Devices- Dashboards built using ChartJS widgets work across all popular desktop and mobile browsers.</li>
+						<li>Data Visualization- ChartJS provides a comprehensive set of visualization widgets that allow you to visually represent data.</li>
+						<li>Trouble-free Configuration- All DevExpress chart and gauge widgets provide straightforward configuration options.</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="two-library">
+			<h4>Chartist.js</h4>
+			<img src="images/chartist.jpg" alt="chartist-logo">
+			<p>Chartist gives the functionality of customizing your charts using CSS media queries and creative animations. Chartist uses SVG to render charts.</p>
+			<ul>
+				<li>Dependencies: No dependencies</li>
+				<li>Licence: Open Source</li>
+				<li>Existing projects: <a href="https://github.com/soderlind/tablepress_chartist">tablepress_chartist</a></li>
+				<li>How long: October 2007.<br>Currently still heavily developing</li>
+				<li>Based on: SVG, Richer Sass / CSS framework</li>
+				<li>Documentation: JSDoc, Getting started documentation and landing page.</li>
+				<li>Implementation: Chartist is notably easy to configure, as well as being easy to customize with Sass.</li>
+				<li>Compared to C3:
+					<ul>
+						<li>Simple handling while using convention over configuration</li>
+						<li>Great flexibility while using clear separation of concerns (Style with CSS & control with JS)</li>
+						<li>Fully responsive and DPI independent</li>
+						<li>Responsive configuration with media queries</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="three-library">
+			<h4>Dygraphs</h4>
+			<img src="images/dygraphs.jpg" alt="dygraphs.logo">
+			<p>Dygraphs is a fast, flexible open source JavaScript charting library. It allows users to explore and interpret dense data sets.</p>
+			<ul>
+				<li>Dependencies: CSV file </li>
+				<li>Licence: Fast, flexible open source JavaScript charting library </li>
+				<li>Existing projects:<a href="https://github.com/danvk/dygraphs-es6">Dygraphs ES6 import demonstration</a></li>
+				<li>How long: Version 2.1.0<br>
+					2017-12-08 </li>
+				<li>Based on: Interpret dense data sets.</li>
+				<li>Documentation: Available. But not straightforward. </li>
+				<li>Implementation: Not implemented.</li>
+				<li>Compare to C3: 
+					<ul>
+						<li>Handles huge data sets: dygraphs plots millions of points without getting bogged down.</li>
+						<li>Interactive out of the box: zoom, pan and mouseover are on by default.</li>
+						<li>Strong support for error bars / confidence intervals.</li>
+						<li>Highly customizable: using options and custom callbacks, you can make dygraphs do almost anything.</li>
+						<li>Dygraphs is works in all recent browsers. You can even pinch to zoom on mobile/tablet devices!</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div> 
+	<br>
+	<hr>
+	<br>
+	<div class="container">
+		<h3>Creating a chart on Demographics of Canada with <a href="https://www.chartjs.org/docs/latest/">Chart.js</a></h3>
+		<canvas id="myChart"></canvas>
+	</div>
+	
+	<script src="js/c3.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/created-chart.js"></script>
+
+</body>
+</html>

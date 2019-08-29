@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="  ">
+	<meta name="keywords" content="   ">
+	<meta name="author" content="Jasjit Kaur">
+	<title>www103_assignment2</title>
+	<!--1. NORMALIZE RESET -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!--2. LINK TO 3RD PARTY ASSETS (google fonts, fontawesome) -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e7b3fa9bec.js"></script>
+	
+    <!--3.STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header>
+	<div class="top-info">
+		<p>Contact Us:555-555-5555</p>
+	</div><!--end of .top-info-->
+	<div class="main-header">
+		<div class="logo">
+			<img src="images/logo.jpg" alt="company logo" class="logo-pic">
+			<img src="images/logo-with-name.jpg" alt="company name" class="logo-with-name">
+		</div>
+		<div class="navigation">
+<!--			<i class="fas fa-bars" alt="navbar"></i>-->
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  			</a>
+			<ul class="icon" id="links">
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">COURSES OFFERED</a></li>
+				<li><a href="#">GALLERY</a></li>
+				<li><a href="#">CONTACT US</a></li>
+			</ul>
+		</div>
+	</div><!--end of .main-header-->
+</header>
+	
+<main>
+	<div id="banner">
+		<h1>Training Solutions for the Residential and Air Conditioning Industry</h1>
+		<button type="button" name="button">Register now</button>
+	</div>	
+</main>
+	
+<div class="banner-logo">
+	<i class="fas fa-check-circle"><br>Specialize</i>
+	<i class="far fa-calendar-alt"><br>Flexible</i>
+	<i class="fab fa-angellist"><br>Success</i>
+</div>
+
+<div class="container">
+	<div class="hvac">
+		<h2>HVAC PROGRAM</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis necessitatibus quod distinctio quisquam consequatur. Porro atque ex quae, quos beatae tempora accusantium commodi, quidem accusamus cum qui odit saepe labore numquam optio, illum ratione pariatur distinctio modi consectetur deserunt esse incidunt a inventore. Optio porro atque repudiandae accusantium aliquid nam?</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam esse adipisci natus cumque, temporibus error enim explicabo quo pariatur at excepturi sunt, cum, velit odit.</p>
+	</div>
+	<div class="hvac-pic">
+		<p>Image will go here</p>
+	</div>
+</div>
+	
+<section class="slide-show">
+	<img src="images/IMG_1367.jpg" alt="register-image" class="register-image">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores fuga saepe, suscipit ab libero tenetur modi nostrum ducimus atque quam ipsum hic quae explicabo, quaerat dolorum rerum, earum? Beatae, expedita.</p>
+</section><br>
+<section><!--Validator shows the warning but heading was not required here, i am ok with it-->
+	<h2>REGISTER TODAY</h2>	
+	<p>Course start multiple times throughout the year!</p>
+	<button type="submit" name="call" class="call">555-555-5555</button>
+	<button type="submit" name="submit" class="register-online">Register Online</button>
+</section>
+
+
+<footer>
+	<div class="footer-nav">
+		<div class="left">
+			<h3>Contact Us</h3>
+				<ul>
+					<li>Phone:555-555-5555</li>
+					<li>Email:abc@abc.com</li>
+					<li>Fax:555-555-5555</li>
+				</ul>
+		</div>
+		<div class="middle">
+			<h3>Policies and Guidelines</h3>
+				<ul>
+					<li>Privacy</li>
+					<li>Accessibility</li>
+				</ul>
+				
+				
+		</div>
+		<div class="right">
+			<h3>Follow Us</h3>
+				<p>Linkedin</p>
+		</div>
+	</div>
+	<div class="footer-copy">
+		<small>&copy;Copyright 2019, Area Technical Services</small>
+	</div>
+</footer>
+	
+	<script>
+function myFunction() {
+  var x = document.getElementById("links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+</body>
+</html>

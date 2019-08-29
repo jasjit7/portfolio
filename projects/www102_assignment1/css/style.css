@@ -1,0 +1,270 @@
+body{
+	font-family: 'Noto Sans HK', sans-serif;
+}
+#container{
+	width:1024px;
+	margin:auto;
+}
+header{
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: flex-start;
+	color:#000033;
+	margin:auto;
+	border-bottom:1px solid #CCCCCC;
+}
+#rationale{
+	text-align:right;
+	font-size:24px;
+}
+#rationale a{
+	color:#FF0000;
+}
+.fa-globe-americas{
+	color: Mediumslateblue;
+	font-size:7em;
+	color:blue; 
+}
+.logo-tag{
+	font-size:20px;
+	color:blue; 
+	margin-left:1rem;
+}
+.logo{
+	width:10%;
+}
+h1{
+	color:#000066;
+	font-size:2.5em;
+}
+.fa-phone-square-alt{
+	color:blue; 
+	font-size:2em; 
+
+}
+.phone-no{
+	font-size:20px;
+	color:blue; 
+	border-style: outset;
+	border-radius:10px;
+	padding:.5em;
+}
+.sign-up{
+	background-color:#C1E0FF;
+	border:blue;
+	border-radius:50%;
+	padding:1rem;
+	margin-left:1em;
+	font-size:24px;
+	font-weight:200;
+	color:#000066;
+}
+main{
+	display:block;
+	border-bottom:2px solid #999999;
+}
+nav{
+	text-align:center;
+}
+ul{
+	list-style:none;
+	width:100%;
+	word-spacing:1rem;
+}
+nav ul li{
+	display:inline;
+	font-size:20px;
+	line-height:2rem;
+	}
+nav ul li a{
+	text-decoration:none;
+	color:#000;
+}
+nav ul li a:hover{
+	color:#FF0000;
+}
+nav ul li ul{
+	position:absolute;
+	display:none;
+	width:200px;
+	padding:0;
+	line-height:0;
+	margin:0;
+	text-align:left;
+	color:black;
+}
+nav ul li ul li{
+	font-size:14px;
+	display:block;
+	word-spacing:.25rem;
+	border:1px solid #666666;
+	border-radius:10px;
+	background-color:#DFDFDF;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+nav ul li:hover>ul {
+	display:block;
+}
+.application{
+	background-color:#F56252;
+	color:#000000;
+	padding:6px;
+}
+.application a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+.application a:hover{
+	font-size:24px;
+	color:#ffffff;
+}
+.img{
+	margin:auto;
+	}
+section{
+	height:auto;
+	margin:auto;
+}
+article{
+	font-size:36px;
+	color:#000000;
+	text-align:center;
+	line-height:3em;
+	background-color:#EAEAEA;
+}
+.scheduling{
+	display:flex;
+	justify-content: space-between;
+	align-items: baseline;
+	font-size:24px;
+	color:#333333;
+	text-align:left;
+	line-height:3em;
+}
+.assistance{
+	display:flex;
+	justify-content: space-between;
+	align-items: baseline;
+	font-size:24px;
+	color:#333333;
+	text-align:left;
+}
+.fas{
+	margin:0;
+}
+
+#module2{
+	background-color:red;
+	width:1024px;
+	height:300px;
+	margin:auto;
+	background-image:url(../images/canada-flag1.jpg);
+	background-size: cover;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	align-items: baseline;
+}
+.block1{
+	height: 50px;
+	width:343px;/*Using flex-box we are not supposed to give width, but the flexbox was not behaving accoringly*/
+    background-color:#ffffff;
+    transition:linear .5s;
+    color:#000000;
+	overflow:hidden;
+	padding:5px;
+	text-align:center;
+}
+.block1:hover{
+    height:300px;
+}
+.block2{
+	height: 50px;
+	width:343px;
+    background-color:#ffffff;
+    transition:linear .5s;
+    color:#000000;
+	overflow:hidden;
+	padding:5px;
+	text-align:center;
+}
+.block2 li{
+	text-align:left;
+}
+.block2:hover{
+    height:300px;
+}
+.block3{
+	height: 50px;
+	width:343px;
+    background-color:#ffffff;
+    transition:linear .5s;
+    color:#000000;
+	overflow:hidden;
+	padding:5px;
+	text-align:center;
+}
+.block3:hover{
+    height:300px;
+}
+footer{
+	background-color:#CCCCCC;
+	line-height:2em;
+	margin:auto;
+	text-align:center;
+}
+
+
+/*==========CSS-ABOUT US===========*/
+.about-us-text{
+	background-color:#FFFFFF;
+	line-height:1em;
+	color:#000000;
+	text-align:left;
+	font-size:16px;
+	margin-top:4em;
+}
+.about-us-text ul li{
+	text-align:left;
+	font-size:16px;
+	list-style:disc;
+	word-spacing:normal;
+	line-height:1.2em;
+}
+/*==========CSS-CONTACT US===========*/
+#contact{
+	width:1024px;
+	margin:auto;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-size:16px;
+	color:#000000;
+}
+.contact{
+	font-size:16px;
+	color:#000000;
+	width:700px;
+	text-align:left;
+	padding:10px;
+	line-height:1.5em;
+	background-color:#FFFFFF;
+}
+aside{
+	background-color:#9DCEFF;
+	padding:4px;
+	border:2px solid #000066;
+	border-radius:10px;
+	margin-top:12.5%;
+	width:250px;
+	padding:30px;
+}
+
+	
+
+

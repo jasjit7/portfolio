@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<meta name="description" content="Portfolio">
+  	<meta name="keywords" content="websites, bootstrap, graphics, client project, web developer, web designer, front end developer, full stack developer, portfolio">
+  	<meta name="author" content="Jasjit Kaur">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/e7b3fa9bec.js"></script>
+	<link rel="stylesheet" href="css/style.css" >
+	<script src="js/script.js"></script>
+	  
+    <title>Portfolio</title>
+  </head>
+<body>
+	 <!-- For this part of my web page, this responsive grid layout will be in 12 columns in header which is further divided into 10 columns for jumbotron and 2 columns for nav on large(lg) screen, and 12 column jumbotron and 12 column navigation on small screens -->
+
+	<header>
+     	<div class="jumbotron jumbotron-fluid row header">
+			<div class="navigation">
+				<nav class="nav flex-row" id="myLinks">
+					  <a class="nav-new text-white nav-link" href="index.html">Home</a>
+					  <a class="nav-new text-white nav-link" href="#about">About Me</a>
+					  <a class="nav-new text-white nav-link"  href="#article">Skills</a>
+					  <a class="nav-new text-white nav-link"  href="#projects">Portfolio</a>
+					  <a class="nav-new text-white nav-link"  href="#contact">Contact me</a>
+				</nav>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			</a>
+			</div>
+			
+			<div class="container container-glow"><!--New component used: container-glow-->
+				<img id="jasjit" src="images/pic.jpg" alt="my-image">
+				<h2 class="display-4 glow">Jasjit Kaur</h2>
+				<h4>Web Developer</h4>
+				<p class="lead container-glow">I design and code beautifully simple things, and love what I do.</p>
+			</div>
+			
+		</div>
+	</header>
+	<main>
+		<h3>About Me</h3>
+		<h5>I design and code beautifully simple things, and love what I do.</h5>
+		<p>I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
+		<div id="about" class="flex-row">
+			<div class="left flex-column">
+				<i class="far fa-lightbulb"></i>
+				<h3>Ideas</h3>
+				<p>I work hard on delivering solutions for my peers and clients. I create well designed and functioning website and web apps.</p>
+				
+			</div>
+			<div class="middle flex-column">
+				<i class="fas fa-code"></i>
+				<h3>Code</h3>
+				<p>I work with HTML5, CSS3 and pure JavaScript. I love coding as such and I am currently learning cool JS frameworks and libraries.</p>
+			</div>
+			<div class="right flex-column">
+				<i class="fas fa-user-plus"></i>
+				<h3>Co-operation</h3>
+				<p>I love working in teams, getting feedback from colleagues and sharing ideas. Let's work together!</p>
+			</div>
+		
+		</div>
+<!--		<h5> I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</h5>-->
+	</main>
+	
+	<section>
+		<article id="article" class="">
+			<h3>My Web Technology Skills</h3>
+			<p>I know a variety of languages related to web technologies and I keep on learning new languages and frameworks.</p>
+			
+			<div id="technologies">
+				<div class="container">
+					  <div class="row">
+							<div class="col-sm technology-sign">
+							  <i class="fab fa-html5"></i>
+							  <h5>HTML</h5>
+							  <h6>The base of web</h6>
+							</div>
+							<div class="col-sm  technology-sign">
+							  <i class="fab fa-css3-alt"></i>
+							  <h5>CSS3</h5>
+							  <h6>Beautiful Designs</h6>	
+							</div>
+							<div class="col-sm technology-sign">
+							  <i class="fab fa-sass"></i>
+							  <h5>SASS</h5>
+							  <h6>More of CSS3</h6>
+							</div>
+						  	<div class="col-sm  technology-sign">
+							  <i class="fab fa-bootstrap"></i>
+							  <h5>BOOTSTRAP</h5>
+							  <h6>Works on Every Device</h6>
+							</div>
+					  </div>
+					
+					  <div class="row">
+							<div class="col-sm technology-sign">
+							  <i class="fab fa-js-square"></i>
+							  <h5>JAVASCRIPT</h5>
+							  <h6>Any changes can be done</h6>
+							</div>
+							<div class="col-sm  technology-sign">
+							  <i class="far fa-file-code"></i>
+							  <h5>jQuery</h5>
+							  <h6>Quick and Easy</h6>	
+							</div>
+							<div class="col-sm technology-sign">
+							  <i class="far fa-chart-bar"></i>
+							  <h5>C3.js</h5>
+							  <h6>Deeper Integration of Charts</h6>
+							</div>
+						  	<div class="col-sm  technology-sign">
+							  <i class="fas fa-chart-pie"></i>
+							  <h5>Chart.js</h5>
+							  <h6>Javascript charting</h6>
+							</div>
+					  </div>
+					
+					  <div class="row">
+							<div class="col-sm technology-sign">
+							  <i class="fab fa-php"></i>
+							  <h5>PHP</h5>
+							  <h6>Server side into Action</h6>
+							</div>
+							<div class="col-sm  technology-sign">
+							  <i class="fas fa-database"></i>
+							  <h5>mySQL</h5>
+							  <h6>A key to database</h6>	
+							</div>
+							<div class="col-sm technology-sign">
+							  <i class="fab fa-wordpress"></i>
+							  <h5>Wordpress</h5>
+							  <h6>Content Management System</h6>
+							</div>
+						  	<div class="col-sm  technology-sign">
+							  <i class="fab fa-github"></i>
+							  <h5>GitHub</h5>
+							  <h6>Version control</h6>
+							</div>
+					  </div>
+				</div>
+			</div>
+		</article>
+		
+		<article id="projects">
+			<h3>My Portfolio</h3>
+			<p>Take a look at my projects</p>
+			<div class="row-project row">
+				<div class="project">
+					<img src="images/areatechnicalservices.jpg" alt="area_technical_services"><br><br>
+					<a href="http://areatechnicalservices.ca/" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">View</a>
+					<a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Code on GitHub</a>
+<!--					<p>Responsive company website created with HTML/CSS, Javascript, jQuery plugin with a PHP contact form sending output to custom email box.</p>-->
+					
+				</div>
+				<div class="project">
+					<img src="images/indee.jpg" alt="indee"><br><br>
+					<a href="https://web.iitm.ac.in/indee/index.html" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">View</a>
+					<a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Code on GitHub</a>
+
+				</div>
+			</div>
+			
+			<div class="row-project row">
+				<div class="project">
+					<img src="images/website-1.jpg" alt="creative-web-solutions"><br><br>
+					<a href="projects/www100_assignment1/www100_assignment1.html" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">View</a>
+					<a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Code on GitHub</a>
+				</div>
+				<div class="project">
+					<img src="images/website-3.jpg" alt="immigration-website"><br><br>
+					<a href="projects/www102_assignment1/WEBSITE.html" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">View</a>
+					<a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Code on GitHub</a>
+				</div>
+			</div>
+		
+			<div class="row-project row">
+				<div class="project">
+					<img src="images/chart-js.jpg" alt="chart-example"><br><br>
+					<a href="projects/www108/www108_assignment1.html" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">View</a>
+					<a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Code on GitHub</a>
+				</div>
+				<div class="project">
+					<img src="images/bakery.jpg" alt="bakery-image"><br><br>
+					<a href="projects/www105-assignment1/gallery.html" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">View</a>
+					<a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Code on GitHub</a>
+				</div>
+			</div>
+			
+			<div class="row-project row">
+				<div class="project">
+					<img src="images/edific.jpg" alt="edific-example"><br><br>
+					<a href="projects/www105-assignment2/index.html" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">View</a>
+					<a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Code on GitHub</a>
+				</div>
+				<div class="project">
+					<img src="images/sassy.jpg" alt="sassy-example"><br><br>
+					<a href="projects/www104_assignment2/www104_assignment2.html" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">View</a>
+					<a href="#" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">Code on GitHub</a>
+				</div>
+			</div>
+		</article>
+		
+		<article id="graphics">
+			<h3>Graphics</h3>
+			<p>Poster with Adobe Photoshop</p>
+			<img class="graphics" src="images/avatar-poster.jpg" alt="avatar-poster">
+		
+		</article>
+		
+		<article id="contact">
+			<div class="contact-form">
+			<div class="container pt-2">
+				<div class="row">
+					<div class="col-lg-6 offset-3">
+						<form action="form.php" method="POST">
+							<h2 class="h3 mb-4">Contact me</h2>
+							<input type="text" name="name" placeholder="Name" class="form-control mb-2">
+							<input type="text" name="email" placeholder="Email" class="form-control mb-2">
+							<input type="text" name="phone" placeholder="Phone" class="form-control mb-2">
+							<textarea name="inquiry" placeholder="Message" class="form-control mb-2"></textarea>
+							<button type="submit" class="btn-block btn-info btn">Send</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			</div>
+		</article>
+	</section>
+	
+	<footer>
+		<small>&copy; Copyright,2019 | Jasjit</small>
+	</footer>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

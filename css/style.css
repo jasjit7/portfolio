@@ -1,0 +1,289 @@
+/*Mobile First*/
+:root {
+    font-size: 100%;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+	padding: 0;
+	width: 100%;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../images/../images/1085.jpeg");
+	background-position: top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.jumbotron{
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/*-----Glowing name------*/
+.container-glow{
+  font-family: cursive;
+  text-align: center;
+  color: #fff;
+  font-size:1em;
+  padding: 0;
+  margin: 0;
+}
+.glow {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #074079, 0 0 20px #074079, 0 0 25px #074079, 0 0 30px #074079, 0 0 35px #074079;
+  }
+  
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #7FC0E7, 0 0 15px #7FC0E7, 0 0 20px #7FC0E7, 0 0 25px #7FC0E7, 0 0 30px #7FC0E7, 0 0 35px #7FC0E7;
+  }
+}
+/*---------*/
+
+#jasjit{
+	height: 200px;
+	width: 175px;
+	margin-top: 30vh;
+	border-radius: 50%;
+	border: 2px double rgba(87,101,140,1.00);
+}
+h2{
+	margin-top: 0vh;
+}
+.nav{
+	display: none;
+}
+
+.navigation a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa, .fa-bars{
+	font-size: 2em;
+	margin: 2em;
+}
+.container{
+	margin: 0 auto;
+}
+.container p{
+	display: none;
+}
+.active{
+  background-color:rgba(132,132,135,1.00);
+  color: white;
+}
+main{
+	margin: 3em auto;
+	width: 90vw;
+	padding: 0;
+	text-align: center;
+}
+#about p{
+	text-align: left;
+}
+.far, .fas{
+	color: #302373;
+	font-size: 2em;
+}
+h3{
+	color: #302373;
+}
+.middle{
+	border-top:1px solid grey;
+	border-bottom:1px solid grey;
+}
+.left, .middle, .right{
+		padding:2em;
+	}
+
+#article{
+	background-color: #302373;
+	width:90%;
+	margin:3em auto;
+	padding:0;
+	text-align: center;
+	color:#fff;
+}
+#article h3{
+	padding-top: 1em;
+	color:#fff;
+}
+
+.technology-sign{
+	border: 1px solid #fff;
+	width:150px;
+	height:200px;
+	padding:0;
+	margin: 1em auto;
+}
+.row .fab,
+.row .far,
+.row .fas{
+	color: #fff;
+	font-size: 4em;
+	padding: .5em;
+}
+.technology-sign p{
+	color: #fff;
+}
+#projects{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.project{
+	margin: 1em auto;
+/*	padding:1em;*/
+	border:1px solid #302373;
+}
+.project img{
+	height: 150px;
+	width: 300px;
+}
+#graphics{
+	width:90%;
+	margin:1em auto;
+	background-color: rgba(244,240,240,1.00);
+	text-align: center;
+}
+
+#graphics img{
+	margin: auto;
+}
+#contact{
+	width:90%;
+	margin:1em auto;
+/*	background-color: rgba(244,240,240,1.00);*/
+	text-align: center;
+	background-image: url(../images/mail.jpg);
+	background-position: top;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 2em;
+}
+footer{
+	background-color: #302373;
+	color: white;
+}
+
+@media screen and (min-width:720px){
+	.navigation{
+		text-align:center;
+		width: 70%;
+		display: flex;
+		flex-direction: row;
+		margin-top: 2em;
+		padding: 0;
+		margin-left: 30vw;
+	}
+
+	.nav{
+		padding:0;
+		font-size: 1.5em;
+		font-family: cursive;
+		display: contents;
+		
+	}
+	.navigation a.icon{
+		display: none;
+	}
+	#about{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 1em;
+	}
+	.left, .middle, .right{
+		padding:2em;
+	}
+	.middle{
+		border-left: 1px solid grey;
+		border-right:1px solid grey;
+	}
+	.middle{
+		border-top:hidden;
+		border-bottom:hidden;
+	}
+	.technology-sign{
+		border: 1px solid #fff;
+		width:150px;
+		height:200px;
+		padding:0;
+		margin: 1em;
+	}
+	.project{
+		margin: 2em auto;
+	/*	padding:1em;*/
+		border:1px solid #302373;
+	}
+	.project img{
+		height: 250px;
+		width: 400px;
+	}
+	.row-project{
+		padding: 0 4em;
+	}
+
+	.graphics img{
+		margin: auto;
+		
+	}
+
+
+}
+
+
+
+@media screen and (min-width:960px){
+	.navigation{
+		width: 100%;
+		margin-left: 50vw;
+		display: flex;
+		flex-direction: row;
+		margin-top: 2em;
+		padding: 0;
+	}
+	.nav{
+		font-size: 1.5em;
+		font-family: cursive;
+		display: contents;
+		padding: 0;
+	}
+	
+	.navigation a.icon{
+		display: none;
+	
+	}
+	#about{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 1em;
+	}
+
+
+}

@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+    font-size: 100%;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box; 
+}
+body{
+	margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+header{
+	width: 100%;
+	margin: 0;
+}
+.top-info{
+	height:2em;
+	line-height: 2em;
+	text-align: right;
+	padding:0 1em 0 0;
+	background-color: #191B54;
+	color: white;
+}
+.top-info p{
+	margin: 0;
+}
+.main-header{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #fff;
+}
+.main-header img{
+	height: 10em;
+	width: 10em;
+}
+.logo{
+	width: 50%;
+	text-align: center;
+/*	display: inline-block;*/
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap:wrap;
+}
+.logo-pic{
+	height: 300px;
+}
+.logo-with-name{
+	height:100px;
+	flex-wrap:wrap;
+}
+.main-header img{
+		height:100px;
+}
+.navigation{
+	width: 50%;
+	display: inline-block;
+	padding:4em;
+	text-align: right;
+	color: #191B54;
+
+}
+.navigation ul{
+	display: none;
+	position: relative;
+}
+.fa, .fa-bars{
+	color: blue;
+	font-size: 3em;
+}
+.navigation ul li{
+	list-style-type: none;
+}
+.navigation ul li a{
+	text-align: left;
+	text-decoration: none;
+	display:block;
+	font-size: 1em;
+	position: relative;
+	padding: 1em;
+}
+.icon li a:hover{
+	background-color:#8C8A8A;
+	color: #000;
+}
+main{
+	display: block;
+}
+h1{
+	padding-top: 280px;
+	color: white;
+	margin: 0;
+}
+#banner{
+	background-image:url(../images/IMG_1398_sm.jpg);
+	background-blend-mode: lighten;
+	background-position:center;
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+	text-align: center;
+}
+.banner-logo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height:12em;
+	width:100%;
+/*	text-align: center;*/
+	padding:5em 10em;
+}
+.fas, .far, .fab, .fal{
+	font-size: 2em;
+	font-weight:normal;
+	color:#191B54;
+	text-align: center;
+}
+
+button{
+	color: blue;
+	border-radius:.5em;
+	background-color: #fff;
+	font-size: 1.5em;
+	padding: .5em;
+}
+.container{
+/*
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding:2em;
+*/
+	display: block;
+}
+.hvac{
+/*	width:50%;*/
+	padding: 4em;
+}
+.hvac-pic{
+	background-color:#8C8A8A;
+	background-position:center;
+	background-size: cover;
+/*	width:50%;*/
+	height: auto;
+	padding:2em;
+}
+footer{
+	display:flex;
+	flex-direction: column;
+	justify-content:space-around;
+	background-color:  #191B54;
+	color: white;
+}
+.slide-show{
+	height: 500px;
+	width:100%;
+}
+.register-image{
+	height: 300px;
+}
+.footer-nav{
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+}
+.footer-copy{
+	background-color:#8598D1;
+		
+}
+
+@media screen and (min-width:720px){
+	.main-header{
+		padding: 0;
+	}
+	.main-header img{
+		height:100px;
+	}
+	.logo{
+		width: 30%;
+		height: auto;
+		padding:0;
+		display: flex;
+		flex-direction:column;
+		align-items: center;
+		flex-wrap:wrap;
+	}
+	.logo-pic{
+		height: 300px;
+	}
+	.logo-with-name{
+		height:100px;
+		flex-wrap:wrap;
+	}
+	.navigation{
+		width: 70%;
+		text-align: right;
+		padding: 0;
+		padding-top: 2em;
+	}
+	.navigation i{
+		display: none;
+	}
+	.navigation ul{
+		display:block;
+	}
+	.navigation ul li{
+		text-decoration: none;
+		display: inline-block;
+		padding:2em;
+		font-size: 1.2em;
+	}
+	.navigation ul li a{
+		text-decoration: none;
+		text-align: center;
+	}
+	.banner-logo{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		height:12em;
+		width:100%;
+		text-align: center;
+		padding:5em 10em;
+	}
+	.fas, .far, .fab, .fal{
+		font-size: 3em;
+		font-weight:normal;
+		color:#191B54;
+		text-align: center;
+	}
+	.container{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding:2em;
+	}
+	.hvac{
+		width:50%;
+		padding: 4em;
+	}
+	.hvac-pic{
+		background-color: #8C8A8A;
+		background-position:center;
+		background-size: cover;
+		width:50%;
+		height: auto;
+		padding:2em;
+	}
+	section{
+		text-align: center;
+		padding: 2em;
+		display: block;
+	}
+	.register-image{
+		width:60%;
+		margin: auto;
+		height: 500px;
+		background-image: url(../images/IMG_1367.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+	section p{
+		width:60%;
+		margin: auto;
+	}
+	button{
+		font-size: 1.5em;
+		align-items: center;
+	}
+	.call{
+		border: 2px solid #191B54;
+		background-color: #fff;
+		color: #191B54;
+	}
+	.register-online{
+		background-color:#191B54;
+		color:#fff;
+	}
+	
+	footer{
+		display:flex;
+		flex-direction: column;
+		justify-content:space-around;
+		background-color:  #191B54;
+		color: white;
+	}
+	.footer-nav{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.footer-copy{
+	background-color:#8598D1;
+		
+}
+	
+}
+
+
+
+
+
+
+
+

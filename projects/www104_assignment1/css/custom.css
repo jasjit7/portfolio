@@ -1,0 +1,101 @@
+.navigation{
+	text-align:center;
+	
+}
+.nav-item{
+	text-align: center;
+}
+.nav-item a{
+	font-size: 1.5em;
+	color: black;
+}
+
+.container-glow{
+  background-color: #343A40;
+  font-family: cursive;
+  text-align: center;
+  color: #fff;
+}
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.bg-dark{
+	background-color: #000;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #074079, 0 0 40px #074079, 0 0 50px #074079, 0 0 60px #074079, 0 0 70px #074079;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #7FC0E7, 0 0 40px #7FC0E7, 0 0 50px #7FC0E7, 0 0 60px #7FC0E7, 0 0 70px #7FC0E7, 0 0 80px #7FC0E7;
+  }
+}
+
+.nav-new{
+	padding-top:1em;
+	font-size: 1.2em;
+	font-family: cursive;
+}
+.navigation nav a:hover{
+	color:red;
+}
+.container-high{
+	height:50em;
+}
+.headline{
+	background-color:#FFF;
+	height:10vh;
+	background-image: url(../images/arabesque.png);
+	text-align: center;
+	line-height: 2.5em;
+	
+}
+.still-images{
+	display: none;
+}
+.still-images a img{
+	margin:1em;
+}
+.picture{
+	text-align: center;
+}
+footer{
+	display:flex;
+	flex-direction: column;
+	justify-content:space-around;
+	background-color:#E9ECEF;
+	color: white;
+	color: #000;
+}
+.footer-nav{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
+h3{
+	font-size: 1.3em;
+}
+@media screen and (min-width:960px){
+	.container-adjust{
+		padding:0 20em;
+	}
+}
+
+@media screen and (max-width:400px){
+	.hidden-sm{
+		display: none;
+	}
+	.still-images{
+		display: block;
+	}
+	
+}
+
+
